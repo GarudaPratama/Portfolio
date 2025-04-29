@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #131313;
+  --color-secondary: #ff9142;
+  --text-primary: #ffffff;
+  --text-secondary: #a8a8a8;
+  --text-button: #f4f7fa;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Syne:wght@400..800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap");
+
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Syne", sans-serif;
+}
+
+// Default styling untuk mobile
+
+body {
+    background-color: var(--color-primary);
+    color: var(--text-primary);
+}
+
+#hero-section {
+    background-color: red;
+
+    .container-hero{
+        background-color: purple;
+        margin: 0 40px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+// Tablet - Desktop (min-width: 640px)
+@media (min-width: 640px) {
+}
