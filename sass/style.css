@@ -9,8 +9,8 @@
 }
 
 * {
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
   font-family: "Syne", sans-serif;
 }
 
@@ -19,12 +19,119 @@ body {
   color: var(--text-primary);
 }
 
-#hero-section {
-  background-color: red;
-}
 #hero-section .container-hero {
   background-color: purple;
-  margin: 0 40px;
+  margin: 0 20px;
   text-align: center;
   font-size: 18px;
+  margin-bottom: 20px;
+}
+#hero-section h1 {
+  margin: 20px 0;
+}
+#hero-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: var(--text-button);
+  background-color: var(--color-secondary);
+}
+#hero-section button:hover {
+  background-color: #ffffff;
+  color: #131313;
+}
+
+#about .container-about {
+  margin: 0 20px;
+}
+#about .container-about .My-Profile {
+  display: flex;
+  justify-content: center;
+}
+#about .container-about .My-Profile .card-img {
+  width: 70%;
+}
+#about .container-about .My-Profile .card-img img {
+  width: 100%;
+}
+#about .container-about .text-profile {
+  margin: 20px 0;
+  text-align: center;
+}
+#about .container-about .text-profile h2 {
+  font-weight: bold;
+}
+#about .container-about .text-profile p {
+  font-family: "Rubik", sans-serif;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: var(--text-secondary);
+}
+#about .container-about .text-profile button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: var(--text-button);
+  background-color: var(--color-secondary);
+}
+#about .container-about .text-profile button:hover {
+  background-color: #ffffff;
+  color: #131313;
+}
+
+#projects .container-project .header-project {
+  text-align: center;
+  margin-top: 50px;
+}
+#projects .container-project .header-project h1 {
+  margin-bottom: 20px;
+}
+#projects .container-project .header-project button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: var(--text-button);
+  background-color: var(--color-secondary);
+}
+#projects .container-project .header-project button:hover {
+  background-color: #ffffff;
+  color: #131313;
+}
+
+@media (min-width: 361px) {
+  #hero-section .container-hero {
+    font-size: 50px;
+    margin: 20px 10%;
+  }
+  #hero-section .container-hero button {
+    font-size: 24px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: none;
+  }
+  #about .container-about {
+    display: flex;
+    justify-content: center;
+    margin: 20px 10%;
+    align-items: center;
+  }
+  #about .container-about .My-Profile {
+    order: 1;
+    width: 50%;
+  }
+  #about .container-about .My-Profile .card-img {
+    width: 60%;
+  }
+  #about .container-about .text-profile {
+    width: 50%;
+  }
+  #about .container-about .text-profile h2 {
+    font-size: 50px;
+  }
+  #about .container-about .text-profile p {
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
